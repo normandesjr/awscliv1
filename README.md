@@ -11,7 +11,7 @@ docker build -t normandesjr/awscliv1:latest .
 
 There is a pattern to follow in order to run the create-table and batch-write-item correctly and in right sequence.
 
-The pattern for the filename is: <number>-<command>-<name>.json
+The pattern for the filename is: \<number>-\<command>-\<name>.json
 
 The *number* will be used to create the order.
 
