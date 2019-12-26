@@ -26,6 +26,16 @@ And the *name* is some arbritary name.
 
 The AWS credentials you have to use for local tests are: "local" and "local" for access and secret access key.
 
+To configure it, fill out as shown below:
+
+````
+$ aws configure
+AWS Access Key ID []: local
+AWS Secret Access Key []: local
+Default region name []: us-east-1
+Default output format [None]:
+````
+
 ## Example
 
 Take a look at example folder to see the docker-compose.yml and json files.
