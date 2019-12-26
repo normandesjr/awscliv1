@@ -22,6 +22,10 @@ The *command* are:
 
 And the *name* is some arbritary name.
 
+## AWS Credentials
+
+The AWS credentials you have to use for local tests are: "local" and "local" for access and secret access key.
+
 ## Example
 
 Take a look at example folder to see the docker-compose.yml and json files.
