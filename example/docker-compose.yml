@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  dynamodb:
+    image: amazon/dynamodb-local
+    ports:
+      - "8000:8000"
+
+  awscliv1:
+    image: normandesjr/awscliv1
+    volumes:
+      - ./resources:/json
+    command: create-resources.sh http://dynamodb:8000
+    depends_on:
+      - dynamodb
+
+
